@@ -43,7 +43,8 @@ public class Consumer {
 
                 myCategory.setCategoryId(category.getCategoryId());
                 myCategory.setCategoryName(category.getCategoryName());
-                myCategory.setPrice(category.getPrice());
+                myCategory.setPrice(category.getMonthlyPrice());
+               // myCategory.setPrice(category.getMonthlyPrice());
                 myCategory.setAdditionalAmenities(category.getAdditionalAmenities());
                 myCategory.setMySpace(myspace);
                 myCategory.setMyAddress(myaddress);

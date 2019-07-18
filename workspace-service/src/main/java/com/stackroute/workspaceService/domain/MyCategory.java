@@ -17,7 +17,7 @@ public class MyCategory {
     @Id
     int categoryId;
     String categoryName;
-    BigDecimal price;
+    double price;
     String[] additionalAmenities;
     private MySpace mySpace;
     private MyAddress myaddress;
@@ -28,7 +28,7 @@ public class MyCategory {
     public MyCategory() {
     }
 
-    public MyCategory(int categoryId, String categoryName, BigDecimal price, String[] additionalAmenities, MySpace mySpace, MyAddress myaddress, MyDimension myDimension, MyLocation mylocation) {
+    public MyCategory(int categoryId, String categoryName, double price, String[] additionalAmenities, MySpace mySpace, MyAddress myaddress, MyDimension myDimension, MyLocation mylocation) {
         this.categoryId = categoryId;
         this.categoryName = categoryName;
         this.price = price;
@@ -56,11 +56,11 @@ public class MyCategory {
         this.categoryName = categoryName;
     }
 
-    public BigDecimal getPrice() {
+    public Double getPrice() {
         return price;
     }
 
-    public void setPrice(BigDecimal price) {
+    public void setPrice(Double price) {
         this.price = price;
     }
 
