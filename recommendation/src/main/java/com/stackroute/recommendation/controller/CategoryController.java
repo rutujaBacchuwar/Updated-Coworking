@@ -8,7 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Collection;
-
+@CrossOrigin("*")
 @RestController
 @RequestMapping(value = "v1/api/category")
 public class CategoryController {
