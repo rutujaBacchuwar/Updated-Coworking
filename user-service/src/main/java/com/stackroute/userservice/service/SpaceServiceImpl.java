@@ -50,7 +50,7 @@ public class SpaceServiceImpl implements SpaceService {
 
     }
     @Override
-    public Space findByName(String name)  {
+    public List<Space> findByName(String name)  {
 
         return spaceRepository.findByName(name);
     }

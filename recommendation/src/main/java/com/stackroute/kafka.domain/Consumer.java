@@ -32,6 +32,9 @@ public class Consumer {
     @Autowired
     BookedService bookedService;
 
+    @Autowired
+    UserService userService;
+
 
     @KafkaListener(topics = "spaceTopicForRecommendation")
     public void receive(@Payload Space space) {
@@ -104,6 +107,7 @@ public class Consumer {
         System.out.println("=================="+myuser.getName());
         System.out.println("++++++++++++++++++"+myuser.getMyCategory().getCategoryName());
         System.out.println("_______________________________"+mySpace.spaceId);
+        userService.create(myuser.getUid(),myuser.getName(),myuser.getEmailId(),myuser.getUid());
         bookedService.createRelationship(myuser.getName(),myuser.getMyCategory().getCategoryName(),mySpace.spaceId);
 
 
