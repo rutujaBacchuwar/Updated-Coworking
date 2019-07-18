@@ -1,10 +1,10 @@
-package com.stackroute.paymentservice.service;
+package com.stackroute.bookingservice.service;
 
 
 import com.stackroute.kafka.domain.Booking;
-import com.stackroute.paymentservice.exceptions.BookedSpaceNotFound;
-import com.stackroute.paymentservice.exceptions.SpaceAlreadyBooked;
-import com.stackroute.paymentservice.repository.BookingRepository;
+import com.stackroute.bookingservice.exceptions.BookedSpaceNotFound;
+import com.stackroute.bookingservice.exceptions.SpaceAlreadyBooked;
+import com.stackroute.bookingservice.repository.BookingRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

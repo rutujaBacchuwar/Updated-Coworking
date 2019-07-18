@@ -1,10 +1,10 @@
-//package com.stackroute.paymentservice.controller;
+//package com.stackroute.bookingservice.controller;
 //
 //import CardDetails;
 //import PaymentDetails;
 //import ChargeRequest;
-//import com.stackroute.paymentservice.service.CardService;
-//import com.stackroute.paymentservice.service.PaymentService;
+//import com.stackroute.bookingservice.service.CardService;
+//import com.stackroute.bookingservice.service.PaymentService;
 //import com.stripe.exception.StripeException;
 //import com.stripe.model.Charge;
 //import org.springframework.beans.factory.annotation.Autowired;

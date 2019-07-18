@@ -1,4 +1,4 @@
-//package com.stackroute.paymentservice.service;
+//package com.stackroute.bookingservice.service;
 //
 //import ChargeRequest;
 //import PaymentDetails;

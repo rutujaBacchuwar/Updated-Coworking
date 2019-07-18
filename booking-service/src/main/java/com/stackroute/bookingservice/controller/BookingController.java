@@ -1,9 +1,9 @@
-package com.stackroute.paymentservice.controller;
+package com.stackroute.bookingservice.controller;
 
 import com.stackroute.kafka.domain.*;
-import com.stackroute.paymentservice.exceptions.BookedSpaceNotFound;
-import com.stackroute.paymentservice.exceptions.SpaceAlreadyBooked;
-import com.stackroute.paymentservice.service.BookingService;
+import com.stackroute.bookingservice.exceptions.BookedSpaceNotFound;
+import com.stackroute.bookingservice.exceptions.SpaceAlreadyBooked;
+import com.stackroute.bookingservice.service.BookingService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

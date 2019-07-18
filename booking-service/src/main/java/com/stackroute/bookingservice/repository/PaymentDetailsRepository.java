@@ -1,4 +1,4 @@
-//package com.stackroute.paymentservice.repository;
+//package com.stackroute.bookingservice.repository;
 //
 //import PaymentDetails;
 //import org.springframework.data.mongodb.repository.MongoRepository;

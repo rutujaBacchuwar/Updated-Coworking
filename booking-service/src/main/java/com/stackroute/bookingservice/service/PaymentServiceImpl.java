@@ -1,8 +1,8 @@
-//package com.stackroute.paymentservice.service;
+//package com.stackroute.bookingservice.service;
 //
 //import ChargeRequest;
 //import PaymentDetails;
-//import com.stackroute.paymentservice.repository.PaymentDetailsRepository;
+//import com.stackroute.bookingservice.repository.PaymentDetailsRepository;
 //import com.stripe.Stripe;
 //import com.stripe.exception.*;
 //import com.stripe.model.Charge;

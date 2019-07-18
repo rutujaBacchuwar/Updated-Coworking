@@ -1,8 +1,8 @@
-package com.stackroute.paymentservice.controller;
+package com.stackroute.bookingservice.controller;
 
 
 import com.stackroute.kafka.domain.CardDetails;
-import com.stackroute.paymentservice.service.CardService;
+import com.stackroute.bookingservice.service.CardService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

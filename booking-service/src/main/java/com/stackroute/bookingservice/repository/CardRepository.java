@@ -1,4 +1,4 @@
-package com.stackroute.paymentservice.repository;
+package com.stackroute.bookingservice.repository;
 
 import com.stackroute.kafka.domain.CardDetails;
 import org.springframework.data.mongodb.repository.MongoRepository;

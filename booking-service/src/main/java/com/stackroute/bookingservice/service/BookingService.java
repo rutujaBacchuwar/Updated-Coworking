@@ -1,8 +1,8 @@
-package com.stackroute.paymentservice.service;
+package com.stackroute.bookingservice.service;
 
 import com.stackroute.kafka.domain.Booking;
-import com.stackroute.paymentservice.exceptions.BookedSpaceNotFound;
-import com.stackroute.paymentservice.exceptions.SpaceAlreadyBooked;
+import com.stackroute.bookingservice.exceptions.BookedSpaceNotFound;
+import com.stackroute.bookingservice.exceptions.SpaceAlreadyBooked;
 
 import java.util.List;
 

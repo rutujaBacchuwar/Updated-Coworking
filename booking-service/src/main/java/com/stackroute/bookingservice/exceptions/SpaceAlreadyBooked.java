@@ -1,4 +1,4 @@
-package com.stackroute.paymentservice.exceptions;
+package com.stackroute.bookingservice.exceptions;
 
 public class SpaceAlreadyBooked extends Exception  {
     String message;

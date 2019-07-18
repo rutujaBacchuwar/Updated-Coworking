@@ -1,4 +1,4 @@
-package com.stackroute.paymentservice.config;
+package com.stackroute.bookingservice.config;
 
 import com.stackroute.kafka.domain.Booking;
 import com.stackroute.kafka.domain.Producer;
